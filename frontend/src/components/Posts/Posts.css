@@ -1,0 +1,12 @@
+.h-divider {
+  width: 1290px;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: white;
+}
+
+@media only screen and (max-width: 1290px) {
+  .h-divider {
+    width: 100%;
+  }
+}

@@ -1,0 +1,121 @@
+USEFULL LINKS FOR THIS PAP:
+  https://react-bootstrap.netlify.app/
+  https://goshacmd.com/different-mobile-desktop-tablet-layouts-react/
+      see like if is mobile make a different layout for example ahaha
+  https://react-icons.github.io/react-icons
+
+API VIEWER: @low
+  ✘ Create a thing that you can see every API and their description @created(21-12-30 01:19) @low @cancelled(22-03-15 10:41)
+    can try to use swagger or something like that
+    swagger can be good but you know probably could "expose" even though
+        we could just like hide some things but first I need to make it save to "expose" the API
+        to the internet
+
+FRONTEND:
+  Make like a API object:
+    ☐ Like Api.get something like that to reutilize code @created(22-03-15 17:18)
+
+
+  Button for debug:
+    ✔ Make a button to debug so you can like fill the forms easialy for the apresentation @created(22-03-15 10:40) @done(22-03-28 10:41)
+
+  Login:
+    ✔ Fix and make react hook form in the login form @created(22-03-15 08:58) @done(22-03-15 10:40)
+      change buttons to type submit so enter can work
+        copy the react hook form from signup page
+        make like maxlength minlength in the forms etcetc
+        remove the verification to the api
+
+  HAVE TO FIX: @critical
+    ✔ Have to fix Signup.jsx @created(22-03-14 11:34) @done(22-03-15 10:40)
+      lines -> 284-288 262-265 have to make a custom error message fix the overall thing about the react hook form
+    ✔ Make the signup work @created(22-03-14 11:35) @done(22-03-15 10:40)
+  WEB3.0:
+    ✔ Make connect wallet and mint function @created(22-03-28 10:41) @started(22-04-09 17:03) @done(22-04-09 17:03) @lasted(31s)
+    https://youtu.be/meTpMP0J5E8 this could help
+	https://youtu.be/Wa54QCDrZ9Q this could help to
+    ✘ This for when someone connects his wallet @created(22-03-06 19:52) @started(22-04-09 17:04) @cancelled(22-04-09 17:04) @wasted(26s)
+      When someone connects his wallet when F5 it disconnects automatically
+        so we have to clear the wallet_address when someone F5
+    ✘ Make a page to show all nfts that have been minted @created(22-03-10 21:12) @cancelled(22-04-09 17:04)
+  Main:
+    ☐ NEED TO MAKE A STRESSTEST @created(22-04-14 05:09) @critical @critical @critical @critical @critical
+    ✘ Make the card at the main content (header) change the nft like rotate from 5 different nfts @created(22-02-26 22:49) @high @cancelled(22-03-09 00:46)
+    ✔ Make the scroll arrow on the right and more opacity @created(22-02-28 11:28) @done(22-02-28 20:46)
+    ✔ Make the route to posts page @created(22-03-02 13:56) @low @done(22-03-15 10:40)
+      in this fase isn't neede right now
+    ✔ Work on the profile page @created(22-03-02 13:57) @critical @done(22-04-10 23:23)
+    ✔ Think of a idea to make the edit profile more intuitive @created(22-04-10 23:26) @done(22-04-13 19:16)
+    ☐ Make a page to a person see his collection of nfts @critical @critical @critical @critical @critical @critical @created(22-04-10 23:23)
+      When mint send him to his collection and make a button to connect if metamask not connected
+      ☐ Probably make a button to connect metamask wallet? @low @created(22-04-10 17:27)
+        Like when you click on the image to go to your profile there's a button to connect and then show like the wallet address and the link to it's rinkeby scanner xD
+    ☐ Posts page @created(22-04-10 23:25) @critical @critical @critical @critical
+      Make this work when clicking to create a new post don't use the localstorage info go get it on the api
+    ☐ Dashboard needs to be made @created(22-03-02 13:57) @critical @critical @critical @critical  @started(22-04-13 17:49)
+      Fixes:
+        ☐ Make the rest of the topics @created(22-04-14 03:49)
+          Recent Transactions
+          Search NFTs
+          Get NFTS by Wallet
+          Posts Management
+        ☐ Show the role of the user in the users table @created(22-04-14 03:55)
+          Make it like a select thing idk or just like ID i don't really care
+    Fixes: @critical @critical @critical
+      ☐ Make a option in login to recover password @critical @critical @critical @critical @critical @created(22-04-14 03:50)
+        How to make this?!!?!!?!?
+          Make an API to recover password
+          To use icloud settings to send message with php mailer for laravel
+            https://www.google.com/search?q=send+emails+laravel+icloud&oq=send+emails+laravel+icloud&aqs=chrome..69i57.3025j0j4&sourceid=chrome&ie=UTF-8
+
+  Register: @critical
+    ✔ Signup Page @created(22-03-06 19:57) @critical @started(22-03-08 10:37) @done(22-03-15 10:40) @lasted(1w3m54s)
+      ✔ Make a route to this page @created(22-03-08 10:37) @done(22-03-08 10:37)
+      ✔ Make a register form @created(22-03-08 10:37) @critical @done(22-03-15 10:40)
+        I tried a bunch but couldn't find a good one
+  Profile: @critical
+    ✔ Make a route to the profile @created(22-03-08 08:58) @started(22-04-10 23:21) @done(22-04-10 23:21) @lasted(21s)
+    ✔ Change pw @created(22-03-06 20:29) @done(22-04-10 23:21)
+    ✔ Change image @created(22-03-06 20:30) @done(22-04-10 23:21)
+    ✔ Change email @created(22-03-06 20:30) @done(22-04-10 23:21)
+  Navigation:
+    ✔ Make the links work @created(22-02-02 20:30) @low @done(22-03-06 19:54)
+        make it link to spaces on the page just like a landing page
+  Login:
+    ✔ Before making the login to work @created(22-02-05 20:47) @critical @done(22-03-06 19:54)
+      You need to make the api to send like a JWT to authenticate users
+          take a look at this
+              https://zellwk.com/blog/frontend-login-system/
+    ✔ Make login work @created(22-02-02 20:30) @low @done(22-03-06 19:54)
+      after login is working work on the register
+      you have to put in cache the token and after 15 days the token will expire make it expire in frontend to
+    ✔ Logout work @created(22-02-06 23:04) @done(22-03-06 19:55)
+      make it like to just clear the storage or the cache
+  Footer:
+    ✔ Make basic Footer @created(22-02-06 20:17) @started(22-02-06 20:17) @done(22-02-06 20:17) @lasted(40s)
+  Safe:
+    ✘ For the admin login don't make like variables with like obvious saying "isAdmin" or "== admin" something like that xD @created(22-02-27 00:56) @cancelled(22-03-15 10:41)
+    ✘ Take a look at this video to make in terms of controlling the authentication with routes @created(22-03-04 00:45) @cancelled(22-03-15 10:41)
+      https://youtu.be/sYe4r8WXGQg
+
+  ✔ To make a safe login you can always npm run winBuild @created(22-02-23 22:42) @critical @done(22-04-10 23:26)
+      to see what is winBuild go package.json there's a script that hide's the source code
+      never run npm start (only on dev) but when production always npm run winBuild
+  ✔ Clean some code of frontend @created(22-02-01 10:40) @done(22-02-02 09:29)
+  ✔ Create react.js app @created(22-01-31 10:39) @critical @done(22-02-02 09:29)
+    Javascript
+  ✔ Fix the alignment of the navbar @created(22-02-02 09:30) @done(22-02-02 15:22)
+  ✘ Make the logo with "Crypto" @created(22-02-02 15:22) @cancelled(22-02-02 20:37)
+      Like you have your logo the "AS" thing and you just add the "Crypto" word aligned etc etc
+  ✘ Search to make the container more small @created(22-02-02 15:23) @cancelled(22-02-02 20:37)
+  ✔ Start making the rest of the landing page @created(22-02-02 20:37) @critical @started(22-02-21 19:35) @done(22-03-06 19:55) @lasted(1w6d20m9s)
+
+  ✔ When working on the profile image uploader or post image uploader @created(22-02-20 20:43) @done(22-04-10 23:26)
+    only allow one you have to make this in the frontend not backend
+
+  ✔ Add the counter thing that is on figma @created(22-02-21 19:35) @done(22-03-06 19:55)
+    see Content.jsx so you can know what it is
+    ✔ When finishing this make it responsive @created(22-02-21 19:36) @done(22-03-06 19:55)
+
+  Roadmap:
+    ✔ See if this is good as it is @created(22-02-26 22:33) @low @done(22-03-06 19:55)

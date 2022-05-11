@@ -1,0 +1,22 @@
+.navbar button {
+  font-weight: 600;
+  width: 120px;
+  height: 40px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 5px;
+  margin-right: 20px;
+}
+.navbar a span {
+  color: white !important;
+  font-weight: 600;
+}
+
+.nav-links span {
+  font-size: 20px;
+  font-weight: 600;
+  padding-right: 70px;
+}
+.navbar input {
+  border-radius: 0px 5px !important;
+}

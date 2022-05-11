@@ -1,0 +1,17 @@
+.container {
+  margin-bottom: 1rem;
+}
+
+.counter {
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white !important;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.counter-txt {
+  color: #a3a3a3;
+  font-weight: 500;
+}

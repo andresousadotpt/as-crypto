@@ -1,0 +1,37 @@
+.MuiTable-root{
+  background-color: var(--bg-color-secondary) !important;
+  color: white !important;
+}
+
+.jss2{
+
+  background-color: var(--bg-color-secondary) !important;
+  color: white !important;
+}
+
+.MuiTable-root p{
+  color: white !important;
+}
+.MuiTable-root th{
+  color: white !important;
+}
+.MuiSvgIcon-root{
+  fill: white !important;
+}
+
+.makeStyles-highlight-2{
+  color: white !important;
+  background-color: #38633d !important;
+}
+.MuiSelect-select.MuiSelect-select{
+  color: white !important;
+}
+
+.MuiSelect-select.MuiSelect-select option{
+  color: black !important;
+}
+
+.MuiTable-root p{
+  font-size: 1rem;
+}
+

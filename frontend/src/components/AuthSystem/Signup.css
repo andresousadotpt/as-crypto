@@ -1,0 +1,68 @@
+.h-divider {
+  width: 1290px;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: white;
+}
+
+@media only screen and (max-width: 1290px) {
+  .h-divider {
+    width: 100%;
+  }
+}
+
+.formss button {
+  background-color: #519259;
+  border: 0;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 5px;
+  width: 100% !important;
+  font-size: 1.2rem !important;
+  color: white !important;
+}
+
+.formss button:hover {
+  background-color: #65b66e;
+}
+
+.formss button:focus {
+  color: white !important;
+  background-color: #519259 !important;
+  border-color: none !important;
+  box-shadow: 1px 5px 4px rgba(13, 253, 13, 0.25) !important;
+}
+
+.formss button:active {
+  color: white !important;
+  background-color: #519259 !important;
+  border-color: none !important;
+  box-shadow: 5px 5px 4px rgba(13, 253, 13, 0.25) !important;
+}
+
+.formss input {
+  box-sizing: border-box;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 5px;
+}
+
+.formss input:focus {
+  border-color: #519259 !important;
+  box-shadow: 1px 5px 4px rgba(13, 253, 13, 0.25) !important;
+}
+
+.formss input:active {
+  color: white !important;
+  border-color: #519259 !important;
+  box-shadow: 5px 5px 4px rgba(13, 253, 13, 0.25) !important;
+}
+
+.formss .text-muted {
+  font-size: 0.75rem;
+}
+
+.signupimg {
+  box-sizing: border-box;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 5px;
+}

@@ -1,0 +1,8 @@
+.footer * {
+  font-weight: 600;
+}
+
+.footer-copyright a {
+  text-decoration: none;
+  color: #519259;
+}

@@ -1,0 +1,44 @@
+.account img {
+  border-radius: 0px 10px;
+}
+.account h4 {
+  font-size: 1.4rem;
+}
+.name {
+  color: #519259;
+  font-size: 2rem;
+}
+.wallet {
+  font-size: 0.75rem;
+  color: #519259;
+}
+
+.account button {
+  font-weight: 600;
+  width: 120px;
+  height: 40px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 5px;
+  border-color: #dc3545;
+  background-color: #dc3545;
+  color: white;
+}
+
+.account button:hover {
+  border-color: #8b1f2a;
+  background-color: #8b1f2a;
+  color: white;
+}
+
+.account button:active {
+  border-color: #8b1f2a;
+  background-color: #8b1f2a;
+  color: white;
+}
+
+.account button:focus {
+  border-color: #8b1f2a;
+  background-color: #8b1f2a;
+  color: white;
+}

@@ -1,0 +1,123 @@
+.main-content {
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+
+.content {
+  /* float: left; */
+  color: white;
+  margin-bottom: 4rem;
+  margin-left: 1rem;
+}
+
+.content button {
+  background-color: #519259;
+  border: 0;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 5px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.content h1 {
+  font-size: 3.5vw;
+  word-wrap: break-word;
+  width: 100%;
+  margin-bottom: 1rem !important;
+}
+.content span {
+  color: #519259;
+}
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.4rem;
+}
+
+.card {
+  box-sizing: border-box;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 0px 10px;
+  border: 0;
+  background-color: #519259;
+  color: white;
+}
+.card img {
+  border-radius: 0px 10px 0px 0px;
+}
+
+.card button {
+  box-sizing: border-box;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 5px;
+  margin: 20px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-weight: 600 !important;
+}
+
+.card button:hover {
+  background-color: #064635;
+  color: white !important;
+  border-color: white;
+}
+
+.card button:active {
+  background-color: #064635;
+  color: white !important;
+  border-color: white !important;
+}
+
+.card button:focus {
+  background-color: #064635;
+  border-color: #064635;
+  color: white !important;
+  box-shadow: 0 0 0 0.25rem rgb(6 70 53 / 50%);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-text-mint-price-txt {
+  color: rgb(226, 224, 224);
+  margin: 0;
+  font-size: 1.1rem;
+}
+.card-text-mint-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.card-text-mint-price span {
+  font-size: 1rem;
+  color: rgb(226, 224, 224);
+}
+
+.btn-mint {
+  padding-left: 30px;
+  padding-right: 30px;
+  border-color: white !important;
+  color: black !important;
+  background-color: white;
+  margin-right: 0 !important;
+  font-weight: 600;
+}
+
+.btn-viewcoll {
+  border-color: white;
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .content h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .card {
+    float: right;
+    margin-right: 1rem;
+  }
+}

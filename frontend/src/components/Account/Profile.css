@@ -1,0 +1,57 @@
+.carta{
+  background-color: #519259;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 5px;
+}
+
+.carta button{
+  background-color: #fff;
+  color: #519259;
+}
+
+.carta button:hover{
+  background-color: #064635;
+  color: #fff;
+}
+.carta button:focus{
+  box-sizing: border-box;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 5px;
+}
+
+.aa input{
+  padding: 0.3rem;
+  padding-right: 2rem;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 5px;
+
+  margin-bottom: 0.5rem;
+  border-color: #fff;
+  border-style: none;
+}
+
+.name {
+
+}
+
+
+@media only screen and (max-width: 988px) {
+  .aa input{
+    padding: 0.1 !important;
+  }
+  .row{
+    text-align: center;
+  }
+}
+
+
+@media only screen and (max-width: 750px) {
+  .aa input{
+    padding: 0.3rem !important;
+  }
+  .carta{
+    padding-left: 0;
+  }
+
+}
